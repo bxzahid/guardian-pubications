@@ -1,0 +1,22 @@
+.search {
+    width: 100%;
+    transition: 0.3s;
+    .search-navbar {
+        background: #fff;
+        border-bottom: 1px solid rgba(218, 220, 224, 0.73);
+        height: 58px;
+        padding-top: 12px;
+    }
+    button.nav-link-icon {
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    input[name='query'] {
+        width: calc(100% - 116px);
+        border: 0;
+        outline: none;
+        background: #ffffff38;
+        font-size: 1.2rem;
+    }
+}

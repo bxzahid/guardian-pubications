@@ -1,0 +1,54 @@
+@import '../../../styles/variables.scss';
+
+.app-header-area {
+    height: 58px;
+    box-shadow: 0 2px 6px $header-area-box-shadow;
+    background-color: $header-bg;
+    .navbar {
+        .nav-link-hover {
+            &:hover {
+                padding-bottom: 12px;
+                border-bottom: 2px solid $navbar-border-bottom;
+            }
+        }
+        .activee {
+            padding-bottom: 1px;
+            border-bottom: 2px solid $navbar-border-bottom;
+        }
+        img {
+            width: 50px;
+            height: auto;
+        }
+    }
+    .list-padding {
+        padding: 12px 0px;
+    }
+    span {
+        color: $navbar-text;
+        font-size: 16px;
+        padding: 0px 7px;
+    }
+    #blog {
+        color: $navbar-text;
+        font-size: 16px;
+        padding: 12px 7px;
+    }
+    .search-icon {
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .app-header-area {
+        height: auto;
+        img {
+            margin: 0px 0;
+        }
+        span {
+            padding: 0px 0px;
+        }
+        #blog {
+            padding: 12px 0px;
+        }
+    }
+}

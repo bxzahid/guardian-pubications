@@ -1,0 +1,47 @@
+.pre-order-area {
+    .pre-order-container {
+        width: 81%;
+        margin: 0 auto;
+        background-color: white;
+        label {
+            font-size: 17px;
+        }
+        .name-field,
+        .phone-field {
+            input[type='text'] {
+                border-radius: 5px;
+            }
+            input[type='text']:focus {
+                box-shadow: none;
+                border: 1px solid #888888;
+            }
+        }
+        textarea {
+            resize: none;
+            border-radius: 5px;
+        }
+        textarea:focus {
+            box-shadow: none;
+            border: 1px solid #888888;
+        }
+        .form-group {
+            select {
+                box-shadow: none;
+                border: 1px solid #888888;
+            }
+        }
+        .send-btn-width {
+            width: 70%;
+            margin: 0 auto;
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .pre-order-container {
+        width: 80%;
+    }
+}

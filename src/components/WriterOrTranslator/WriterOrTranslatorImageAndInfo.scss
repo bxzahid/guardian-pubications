@@ -1,0 +1,141 @@
+body {
+    .writer-or-translator-heading {
+        .custom-container {
+            padding-left: 20rem;
+            position: relative;
+        }
+        h2 {
+            color: #363636;
+            padding-top: 10rem;
+            span {
+                font-size: 1.4rem;
+                color: #707070;
+            }
+        }
+        h5 {
+            color: #363636;
+            padding-bottom: 1rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .writer-or-translator-heading-text {
+        background: #eeeeee;
+        font-weight: 500;
+        .custom-container {
+            position: relative;
+            padding: 4rem 0 4rem 7rem;
+            img {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+                border-radius: 100%;
+                position: absolute;
+                left: 6rem;
+                top: -6rem;
+                border: 2px solid #eeeeee;
+                background: #fff;
+            }
+            h5 {
+                padding-top: 22px;
+            }
+            .writer-translator-bio {
+                h5 {
+                    padding-top: 22px;
+                    text-align: left;
+                    padding-left: 0px;
+                }
+            }
+            p {
+                text-align: justify;
+            }
+        }
+        .writer-or-translator-title-sml-dv {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .writer-or-translator-heading {
+        .custom-container {
+            padding-left: 11rem !important;
+        }
+    }
+
+    .writer-or-translator-heading-text {
+        .custom-container {
+            padding-left: 1rem !important;
+            img {
+                left: 0.5rem !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-container {
+        width: 95% !important;
+    }
+}
+
+@media (max-width: 690px) {
+    .writer-or-translator-heading .writer-or-translator-title {
+        display: none;
+    }
+    .writer-or-translator-heading {
+        .custom-container {
+            padding: 5rem;
+        }
+    }
+
+    .writer-or-translator-heading-text {
+        .custom-container {
+            padding-left: 0rem !important;
+            h2 {
+                text-align: center;
+                span {
+                    font-size: 1.4rem;
+                    color: #707070;
+                }
+            }
+            h5 {
+                text-align: center;
+                padding-top: 0px;
+            }
+            .writer-translator-bio {
+                width: 134px;
+                margin: 0 auto;
+            }
+            img {
+                position: absolute;
+                top: -4rem !important;
+                left: 43% !important;
+                width: 100px !important;
+                height: 100px !important;
+                border: 2px solid #eeeeee;
+                background: #fff;
+            }
+
+            p {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+        .writer-or-translator-title-sml-dv {
+            display: block !important;
+        }
+    }
+}
+
+@media (max-width: 689px) {
+    .writer-or-translator-heading-text {
+        .custom-container {
+            img {
+                position: absolute;
+                left: 50% !important;
+                margin-left: -50px !important;
+            }
+        }
+    }
+}

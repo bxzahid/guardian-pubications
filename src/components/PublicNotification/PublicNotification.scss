@@ -1,0 +1,16 @@
+.notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffe845;
+    padding: 1rem 0 .5rem 0;
+    color: #0d0d0d;
+
+    .link-icon {
+        padding: 0;
+        border: none;
+        background: transparent;
+        outline: none;
+    }
+}

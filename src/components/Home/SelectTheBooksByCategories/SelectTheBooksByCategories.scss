@@ -1,0 +1,41 @@
+.select-the-books-by-categories {
+    background-color: white;
+    .category-select-field {
+        width: 70%;
+        margin: 0 auto;
+        .form-control {
+            &:focus {
+                box-shadow: none;
+                border: 1px solid #888888;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .select-the-books-by-categories {
+        .category-select-field {
+            .category-field {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .select-the-books-by-categories {
+        .category-select-field {
+            width: 95%;
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .select-the-books-by-categories {
+        .category-select-field {
+            .category-field {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

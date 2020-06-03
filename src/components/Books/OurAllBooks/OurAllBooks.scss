@@ -1,0 +1,30 @@
+.published-book {
+    .section-padding-bottom-reset {
+        padding-bottom: 58px;
+        .published-book-content {
+            .section-title {
+                padding-bottom: 35px;
+            }
+            .row-content {
+                .custom-padding {
+                    padding-bottom: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .published-book .published-book-content .row-content {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-container {
+        width: 100% !important;
+    }
+    .published-book .published-book-content .row-content {
+        margin-bottom: 0px !important;
+    }
+}

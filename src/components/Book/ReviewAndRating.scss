@@ -1,0 +1,33 @@
+.review-part {
+    .review-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        span {
+            border-bottom: 2px solid #9f0c10;
+        }
+    }
+    .review-content {
+        margin-top: 60px;
+
+        .row {
+            .star-icon {
+                padding-left: 16px;
+                padding-bottom: 16px;
+            }
+
+            .date {
+                padding-left: 25px;
+                color: #888888;
+                padding-bottom: 16px;
+            }
+        }
+
+        p {
+            line-height: 25px;
+            text-align: justify;
+        }
+    }
+}

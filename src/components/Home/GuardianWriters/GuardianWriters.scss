@@ -1,0 +1,17 @@
+.all-writers {
+    text-align: center;
+    background: #eeeeee;
+    p {
+        font-weight: 400;
+        padding-top: 16px;
+        font-size: 18px;
+        color: #212529;
+    }
+    .margin-top {
+        margin-top: 50px;
+    }
+}
+
+.avatar-card .rounded-image img {
+    border: 2px solid rgba(221, 221, 221, 0.6705882352941176);
+}

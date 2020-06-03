@@ -1,0 +1,31 @@
+.find-out-next-book-area {
+    color: #363636;
+    text-align: center;
+    .find-out-next-book-content {
+        padding: 80px 0;
+        .nav-tabs {
+            margin-bottom: 20px;
+            border: none;
+            a {
+                font-weight: 600;
+                border: none;
+                color: #5f6368;
+            }
+        }
+        .active {
+            color: #363636;
+            .key {
+                border-bottom: 2px solid #9c1f23;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .find-out-next-book {
+        .xs-width {
+            width: 165px;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.best-sell-book {
+    background: #f8f8f8;
+    .section-title {
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-container {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,31 @@
+.published-book {
+    color: #363636;
+    text-align: center;
+    .section-padding-top-bottom {
+        padding-bottom: 58px;
+    }
+    .published-book-content {
+        .section-title {
+            padding-bottom: 35px;
+        }
+        h2 {
+            span {
+                border-bottom: 2px solid #9f0c10;
+            }
+        }
+        .row-content {
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-container {
+        width: 100% !important;
+    }
+    .published-book .published-book-content .row-content {
+        margin-bottom: 0px !important;
+    }
+}

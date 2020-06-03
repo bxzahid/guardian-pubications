@@ -1,0 +1,55 @@
+.map-and-address {
+    .address {
+        font-size: 1.0625rem;
+        line-height: 2.1rem;
+    }
+    .row {
+        .col-lg-6,
+        .col-md-12 {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+            iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+        }
+        .padding-left {
+            padding-left: 41px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .map-and-address {
+        .section-padding-top-bottom {
+            padding-top: 80px;
+            padding-bottom: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
+    .map-and-address {
+        .row {
+            .padding-left {
+                padding-left: 0px;
+            }
+        }
+    }
+    .address,
+    h4 {
+        text-align: center;
+    }
+}

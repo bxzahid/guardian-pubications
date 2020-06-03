@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+$body-bg: white;
+$section-btn-border: #707070;
+$section-btn-bg: #707070;
+$section-btn-text-color: white;
+$section-title: #363636;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    body {
+        background: $body-bg;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 400;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.custom-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 600;
+    padding-bottom: 40px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.section-padding-top-bottom {
+    padding: 80px 0;
+}
+
+h1 {
+    color: $section-title;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+h2 {
+    color: $section-title;
+    font-weight: 500;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 7px 20px;
+    font-weight: 400;
+    color: $section-btn-text-color;
+    border: 1px solid $section-btn-border;
+    background-color: $section-btn-bg;
+}
+
+.btn-custom-outline {
+    font-size: 16px;
+    padding: 7px 20px;
+    font-weight: 400;
+    background: #f8f8f8;
+    color: #363636;
+    border: 1px solid #707070;
+}
+
+.btn-published-books {
+    background-color: #ffffff;
+    color: #363636;
+
+    &:hover {
+        background: #363636;
+        color: white;
+    }
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+input {
+    height: 38px;
+}
+
+.star-icon {
+    color: #9f0c10;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+// This style for rating reset margin right
+span {
+    svg {
+        margin-right: 4px;
+    }
+}
+
+// This style for react-transition-group package
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+// Style for Beta Testing in site
+.notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffe845;
+    padding: 0.7rem 0 0.5rem 0;
+    color: #0d0d0d;
+    .link-icon {
+        padding: 0;
+        border: none;
+        background: transparent;
+        outline: none;
+    }
+}
+
+// Reset bootstrap form-control class
+.form-control {
+    height: calc(1.5em + 0.75rem + 4px);
+}
+
+input {
+    height: 38px;
+}
+
+// Bootstrap row margin customization for responsive
+.row {
+    margin: 0px 0px;
+}
+
+// Site loader
+.custom-loader {
+    height: 100vh;
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

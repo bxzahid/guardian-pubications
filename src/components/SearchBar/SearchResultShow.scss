@@ -1,0 +1,60 @@
+.search-books {
+    height: 100vh;
+    color: #707070;
+    background: #fff;
+    text-align: center;
+    .row-content {
+        .col-sm-6 {
+            margin-bottom: 50px;
+        }
+        h5 {
+            font-weight: 500;
+            padding-top: 20px;
+            color: #363636;
+        }
+        p {
+            font-weight: 400;
+            color: #5f6368;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1250px) {
+    .book-img {
+        left: 5rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .book-img {
+        left: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-container {
+        width: 95% !important;
+    }
+    .search-books {
+        .row-content {
+            .img-fluid {
+                width: 75%;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-container {
+        width: 100% !important;
+    }
+    .search-books {
+        .row-content {
+            .img-fluid {
+                width: 55%;
+            }
+        }
+    }
+}

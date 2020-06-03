@@ -1,0 +1,45 @@
+@import '../../../styles/variables.scss';
+
+.single-page-app-header-area {
+    height: 58px;
+    box-shadow: 0 2px 6px $header-area-box-shadow;
+    background-color: $header-bg;
+    .site-title-hidden {
+        display: none;
+    }
+
+    .navbar {
+        input:focus {
+            box-shadow: none;
+            border: 1px solid #888888;
+        }
+        .navbarBrandHidden {
+            display: none;
+        }
+        .back-btn-top-padding {
+            padding-top: 9px;
+        }
+        .logo-top-padding {
+            padding-top: 5px;
+        }
+        .searchbar-p-top {
+            padding-top: 12px;
+        }
+        .btn-back {
+            cursor: pointer;
+        }
+        .search-icon-style {
+            color: $navbar-text;
+            font-size: 18px;
+        }
+        span {
+            color: $navbar-text;
+            cursor: pointer;
+        }
+
+        img {
+            width: 50px;
+            height: auto;
+        }
+    }
+}

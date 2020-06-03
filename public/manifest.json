@@ -1,0 +1,25 @@
+{
+    "name": "গার্ডিয়ান পাবলিকেশন্স",
+    "short_name": "গার্ডিয়ান",
+    "icons": [{
+            "src": "logo.png",
+            "sizes": "92x92",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#f0f2f5",
+    "theme_color": "#96f2d7"
+}
